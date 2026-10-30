@@ -20,7 +20,6 @@
   <a href="#-quick-start"><b>Quick start</b></a> ·
   <a href="#-how-it-works"><b>How it works</b></a> ·
   <a href="#-demo"><b>Demo</b></a> ·
-  <a href="#-roadmap"><b>Roadmap</b></a> ·
   <a href="https://www.linkedin.com/in/areeb-siddiqui-ar-code/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white"></a>
 </p>
 
