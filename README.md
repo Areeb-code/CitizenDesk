@@ -380,7 +380,7 @@ Released under the [MIT License](LICENSE).
 **AR-CODE**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/areeb-siddiqui-ar-code/)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?logo=github&logoColor=white)](https://github.com/YOUR_USERNAME)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?logo=github&logoColor=white)](https://github.com/Areeb-code)
 
 <div align="center">
 
