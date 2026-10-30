@@ -13,7 +13,7 @@
   <img alt="llama.cpp" src="https://img.shields.io/badge/llama.cpp-supported-6E40C9">
   <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white">
   <img alt="License" src="https://img.shields.io/badge/License-MIT-green">
-  <img alt="Status" src="https://img.shields.io/badge/status-in%20development-orange">
+  <img alt="Status" src="https://img.shields.io/badge/status-in%20v2-orange">
 </p>
 
 <p>
