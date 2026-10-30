@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f6f2">
+  <meta name="description" content="CitizenDesk — a clearer path from public issue to action.">
+  <title>CitizenDesk — Public service, made clearer</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <a class="brand" href="#dashboard" data-nav="dashboard" aria-label="CitizenDesk home">
+        <span class="brand-mark"><span></span><span></span><span></span></span>
+        <span class="brand-copy"><strong>citizen<span>desk</span></strong><small>PUBLIC SERVICE, REWIRED</small></span>
+      </a>
+
+      <div class="workspace-label">WORKSPACE <span>01</span></div>
+      <nav class="primary-nav" aria-label="Main navigation">
+        <button class="nav-link active" data-nav="dashboard" aria-label="Overview"><span class="nav-icon" data-icon="grid"></span><span>Overview</span><kbd>⌘ 1</kbd></button>
+        <button class="nav-link" data-nav="new" aria-label="New complaint"><span class="nav-icon" data-icon="plus-square"></span><span>New complaint</span><span class="nav-dot"></span></button>
+        <button class="nav-link" data-nav="records" aria-label="Case records"><span class="nav-icon" data-icon="layers"></span><span>Case records</span><span class="nav-count" id="nav-record-count">0</span></button>
+        <button class="nav-link" data-nav="contacts" aria-label="Contact library"><span class="nav-icon" data-icon="contact"></span><span>Contact library</span></button>
+        <button class="nav-link" data-nav="settings" aria-label="Settings and models"><span class="nav-icon" data-icon="cpu"></span><span>Settings & models</span></button>
+      </nav>
+
+      <div class="sidebar-divider"></div>
+      <div class="workspace-label">YOUR PROCESS</div>
+      <div class="process-mini">
+        <div class="process-mini-line"><span class="mini-node done"></span><span>Understand the issue</span></div>
+        <div class="process-mini-line"><span class="mini-node"></span><span>Find the right office</span></div>
+        <div class="process-mini-line"><span class="mini-node"></span><span>Prepare your case</span></div>
+      </div>
+
+      <div class="sidebar-bottom">
+        <div class="privacy-card">
+          <span class="privacy-icon" data-icon="shield-check"></span>
+          <div><strong>Private by design</strong><p>Your workspace stays on this machine.</p></div>
+          <span class="privacy-spark"></span>
+        </div>
+        <div class="local-status"><span class="status-led" id="api-led"></span><span id="api-status">Connecting to local service</span><span class="local-tag">LOCAL</span></div>
+        <div class="profile-row"><div class="avatar">CD</div><div class="profile-copy"><strong>CitizenDesk</strong><small>Personal workspace</small></div><button class="icon-button tiny" title="Workspace details" data-action="workspace-info" data-icon="more-horizontal"></button></div>
+      </div>
+    </aside>
+
+    <main class="main-panel">
+      <header class="topbar">
+        <div class="crumbs"><span>WORKSPACE</span><span class="crumb-slash">/</span><strong id="page-crumb">OVERVIEW</strong></div>
+        <div class="topbar-right">
+          <div class="today-label" id="today-label">LOCAL WORKSPACE</div>
+          <span class="topbar-separator"></span>
+          <button class="top-icon" title="Refresh data" data-action="refresh" data-icon="refresh-cw"></button>
+          <button class="top-icon" title="Help" data-action="help" data-icon="circle-help"></button>
+          <div class="top-avatar">C</div>
+        </div>
+      </header>
+
+      <div class="view-container" id="view-container" aria-live="polite">
+        <section class="view view-active" id="view-dashboard" data-view="dashboard"></section>
+        <section class="view" id="view-new" data-view="new"></section>
+        <section class="view" id="view-records" data-view="records"></section>
+        <section class="view" id="view-contacts" data-view="contacts"></section>
+        <section class="view" id="view-detail" data-view="detail"></section>
+        <section class="view" id="view-settings" data-view="settings"></section>
+      </div>
+      <footer class="app-footer"><span>CitizenDesk <b>·</b> Local civic assistance</span><span>BUILT FOR CLARITY <i></i> NOT MORE NOISE</span></footer>
+    </main>
+  </div>
+
+  <div class="toast-region" id="toast-region" aria-live="polite" aria-atomic="true"></div>
+  <div class="modal-backdrop" id="modal-backdrop" hidden>
+    <section class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close icon-button" data-action="close-modal" data-icon="x" aria-label="Close"></button>
+      <div id="modal-content"></div>
+    </section>
+  </div>
+  <script src="/assets/app.js" defer></script>
+</body>
+</html>

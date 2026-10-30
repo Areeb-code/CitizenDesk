@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+.env
+data/complaint.json
+data/contacts.json
+data/research_history.json
