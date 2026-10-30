@@ -21,7 +21,7 @@
   <a href="#-how-it-works"><b>How it works</b></a> ·
   <a href="#-demo"><b>Demo</b></a> ·
   <a href="#-roadmap"><b>Roadmap</b></a> ·
-  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/areeb-siddiqui-ar-code/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white"></a>
 </p>
 
 </div>
@@ -304,6 +304,7 @@ Speed tuning (in `app/config.py`): `NUM_CTX` (context size, lower uses less RAM)
 citizendesk/
 ├── app/
 │   ├── config.py        settings and limits
+|   ├── feedback.py      take full info. if missing
 │   ├── models.py        JSON model and writer model
 │   ├── prompts.py       all prompt templates
 │   ├── state.py         shared graph state
@@ -362,19 +363,6 @@ The model is probably larger than your free RAM, so Windows is swapping to disk.
 Check that `TAVILY_API_KEY` is set in `.env`. The app falls back to DuckDuckGo when Tavily fails, but that source is unofficial and may be rate-limited.
 </details>
 
-## 🗺️ Roadmap
-
-- [ ] Model layer: Ollama connection, JSON model, writer model
-- [ ] LangGraph pipeline with conditional edges and a capped revision loop
-- [ ] Web research: search, page extraction, contact extraction with sources
-- [ ] Verifier with confidence scoring
-- [ ] SQLite memory and failed-channel tracking
-- [ ] Feedback loop with extended re-research
-- [ ] FastAPI endpoints
-- [ ] llama.cpp backend option
-- [ ] Region profiles for more countries
-- [ ] Urdu and Roman Urdu evaluation
-- [ ] Optional web UI
 
 ## 🤝 Contributing
 
@@ -392,7 +380,7 @@ Released under the [MIT License](LICENSE).
 
 **AR-CODE**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/YOUR_LINKEDIN/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/areeb-siddiqui-ar-code/)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?logo=github&logoColor=white)](https://github.com/YOUR_USERNAME)
 
 <div align="center">
