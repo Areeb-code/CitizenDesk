@@ -1,7 +1,4 @@
 
-
-https://github.com/user-attachments/assets/1b99bdce-e210-4fd7-ba4e-7b3d04cc6883
-
 <div align="center">
 
 # 📨 CitizenDesk
@@ -110,6 +107,7 @@ ADD YOUR DEMO HERE (pick one):
 3. Clickable YouTube thumbnail:
    [![Watch the demo](docs/thumbnail.png)](https://youtu.be/YOUR_VIDEO_ID)
 -->
+https://github.com/user-attachments/assets/1b99bdce-e210-4fd7-ba4e-7b3d04cc6883
 
 *Demo video coming soon.*
 
