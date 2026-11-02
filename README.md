@@ -1,4 +1,3 @@
-
 <div align="center">
 
 # 📨 CitizenDesk
@@ -30,7 +29,7 @@
 
 ## 🎯 The problem
 
-You have a real problem: stray dogs in your society, a broken sewer line, a wrong electricity bill. You search online, find five phone numbers, and call them one by one. Most are dead. One answers and says, *"We don't handle this, try another department."*
+You have a real problem: stray dogs in your society, a broken sewer line, a wrong electricity bill. You search online, find five phone numbers, and call them one by one. Most are dead. One answers and[...] 
 
 Generic chatbots make this worse. They produce numbers that **look** right but have no source, and nobody can tell which ones are real.
 
@@ -61,7 +60,7 @@ Everything runs on **your own machine** with a small local model, so your person
 
 ## 🧭 How it works
 
-The agent is a [LangGraph](https://langchain-ai.github.io/langgraph/) state graph. The order of steps is fixed in code, so a small model can't take a wrong turn. The model is only used for narrow jobs: extracting fields, reading search results, and writing the letter.
+The agent is a [LangGraph](https://langchain-ai.github.io/langgraph/) state graph. The order of steps is fixed in code, so a small model can't take a wrong turn. The model is only used for narrow jobs[...] 
 
 ```mermaid
 flowchart TD
@@ -100,14 +99,16 @@ flowchart TD
 
 ## 🎬 Demo
 
-<!--
-ADD YOUR DEMO HERE (pick one):
-1. Drag and drop an .mp4 into this file while editing on github.com. GitHub generates a link and shows a player.
-2. Put a GIF in docs/ and use: ![demo](docs/demo.gif)
-3. Clickable YouTube thumbnail:
-   [![Watch the demo](docs/thumbnail.png)](https://youtu.be/YOUR_VIDEO_ID)
--->
-https://github.com/user-attachments/assets/1b99bdce-e210-4fd7-ba4e-7b3d04cc6883
+### CitizenDesk demo video
+
+<p align="center">
+  <video controls width="960" playsinline preload="metadata">
+    <source src="https://github.com/user-attachments/assets/1b99bdce-e210-4fd7-ba3d04cc6883" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</p>
+
+[Open the demo video in a new tab](https://github.com/user-attachments/assets/1b99bdce-e210-4fd7-ba3d04cc6883)
 
 *Demo video coming soon.*
 
@@ -349,7 +350,7 @@ Close the terminal and open a new one so it picks up the updated PATH. If it sti
 <details>
 <summary><b>The model downloads to C: even after setting <code>OLLAMA_MODELS</code></b></summary>
 
-The background server started before the variable existed. Quit Ollama from the system tray, open a **new** terminal, confirm `echo $env:OLLAMA_MODELS` shows your path, then run `ollama serve` from that terminal and pull in a second one.
+The background server started before the variable existed. Quit Ollama from the system tray, open a **new** terminal, confirm `echo $env:OLLAMA_MODELS` shows your path, then run `ollama serve` from the new terminal.
 </details>
 
 <details>
@@ -364,7 +365,6 @@ The model is probably larger than your free RAM, so Windows is swapping to disk.
 Check that `TAVILY_API_KEY` is set in `.env`. The app falls back to DuckDuckGo when Tavily fails, but that source is unofficial and may be rate-limited.
 </details>
 
-
 ## 🤝 Contributing
 
 Ideas, bug reports, and verified region data are welcome. Open an issue first to discuss a larger change.
@@ -375,7 +375,7 @@ Released under the [MIT License](LICENSE).
 
 ## 🙌 Acknowledgements
 
-[Ollama](https://ollama.com), [llama.cpp](https://github.com/ggml-org/llama.cpp), [LangGraph](https://langchain-ai.github.io/langgraph/), [Tavily](https://tavily.com), and [FastAPI](https://fastapi.tiangolo.com). Built as part of the AIRI Team PITB AI Internship.
+[Ollama](https://ollama.com), [llama.cpp](https://github.com/ggml-org/llama.cpp), [LangGraph](https://langchain-ai.github.io/langgraph/), [Tavily](https://tavily.com), and [FastAPI](https://fastapi.ti...)
 
 ## 👤 Author
 
